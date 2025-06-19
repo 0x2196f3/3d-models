@@ -35,7 +35,7 @@ shell_obj.Shape = shell
 #     Bonded to prism1 at Y = 10 … 15 mm                [1]
 # ---------------------------------------------------------------
 prism2 = Part.makeBox(100, 5, 100)
-prism2.translate(App.Vector(5, 12.5, 0))      # puts its 5 mm face on prism1[1]
+prism2.translate(App.Vector(0, 12.5, 0))      # puts its 5 mm face on prism1[1]
 prism2_obj = doc.addObject('Part::Feature', 'Prism2')
 prism2_obj.Shape = prism2
 
