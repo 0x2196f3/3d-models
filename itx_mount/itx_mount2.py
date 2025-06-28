@@ -31,7 +31,7 @@ rotation_angle = 180  # Degrees
 final_shape.rotate(FreeCAD.Vector(0, 0, 0), rotation_axis, rotation_angle)
 
 # Position the final shape at (90mm, 0mm, 3mm)
-final_shape.Placement.Base = FreeCAD.Vector(105, 3, 36)
+final_shape.Placement.Base = FreeCAD.Vector(145, 3, 36)
 
 # Add the final shape to the document
 Part.show(final_shape)
